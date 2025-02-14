@@ -19,6 +19,13 @@
   --transition: 0.4s ease;
 }
 
+.dark-theme{
+  --color-body:hsl(231, 39%, 10%);
+  /* --color-body:hsl(0, 0%, 10%); */
+  --color-dark:hsl(0, 0%, 100%);
+  --color-light:hsl(0, 0%, 10%);
+}
+
 body{
   background: var(--color-body);
   color:var(--color-dark);
@@ -36,6 +43,10 @@ section{
 h1, h2, h3, h4{
   color: var(--color-dark);
   font-weight: 600;
+}
+
+h1{
+  font-size: 3rem;
 }
 
 h1 span{

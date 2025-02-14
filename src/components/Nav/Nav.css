@@ -98,6 +98,8 @@
         border: transparent;
         flex-direction: row-reverse;
         padding-block: 0;
+        gap:0;
+        margin: 2rem 0;
     }
     .nav-link span{
         background: var(--color-light);
@@ -118,11 +120,14 @@
 
     .nav-link:hover h3{
         color : var(--color-primary);
-        transform:scale(1.1);
+        transform:scale(1);
     }
     .navlinksActive span{
         color:white;
         background: var(--color-primary);    
         
+    }
+    .navlinksActive h3{
+       transform: scale(.8);
     }
 }
