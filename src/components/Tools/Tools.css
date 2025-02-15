@@ -1,0 +1,42 @@
+.tools{
+    padding-bottom: 0 !important;
+   ;
+
+}
+
+.tools-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:2rem;
+}
+
+/* .tools-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-bottom: 4px
+} */
+.tools-container img{
+    transition:var(--transition);
+    width: 60px;    
+}
+    /* added width extra for flex 
+} */
+
+.tools-container img:hover{
+    transform: rotate(-45deg);
+}
+
+@media (max-width:1024px) {
+    .tools-container{
+        gap:4rem;
+    }
+}
+
+@media (max-width:600px) {
+    .tools-container{
+        gap:1.5rem;
+    }
+}
