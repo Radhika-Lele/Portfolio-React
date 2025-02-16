@@ -7,7 +7,7 @@ const Tools = () => {
         <section className='tools'>
         <HeadingText
          title={'Work'}
-         titlePrimary={'Tools'}
+         titlePrimary={' Tools'}
         />
         <div className='container tools-container'>
             {tools.map(({id, img}) => {

@@ -14,7 +14,7 @@ const About = () => {
         <section className='About'>
             <HeadingText
             title={'About'}
-            titlePrimary={'Me'} />
+            titlePrimary={' Me'} />
 
             <div className='container about-container'>
                 <div className='about-left'>

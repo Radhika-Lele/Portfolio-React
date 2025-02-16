@@ -1,0 +1,54 @@
+.contact-container{
+    width: 50%;
+}
+
+.contact-container input, textarea{
+    border: 2px solid var(--color-dark);
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    background: transparent;
+    color: var(--color-dark);
+    resize: none;
+}
+.contact-container button{
+    background: transparent;
+    margin-top: 0 !important;
+}
+
+footer{
+    background: var(--color-light);
+    padding: 2rem;
+    text-align: center;
+    color:var(--color-dark);
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Make the main content grow to push the footer down */
+.page-content {
+    flex: 1;
+}
+
+footer a {
+    margin-right: 15px; /* Adjust the spacing as needed */
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+@media (max-width:1024px){
+    .contact-container{
+        width: 70%;
+    }
+}
+
+@media (max-width:600px){
+    .contact-container{
+        width: 90%;
+    }
+}

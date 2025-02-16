@@ -1,7 +1,5 @@
 .tools{
     padding-bottom: 0 !important;
-   ;
-
 }
 
 .tools-container{
@@ -20,7 +18,7 @@
 } */
 .tools-container img{
     transition:var(--transition);
-    width: 60px;    
+    /* max-width: 60px;     */
 }
     /* added width extra for flex 
 } */

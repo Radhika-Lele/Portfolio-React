@@ -78,6 +78,30 @@ export const tools = [
         id: 6,
         img: image6,
     },
+    {
+        id: 1,
+        img: image1,
+    },
+    {
+        id: 2,
+        img: image2,
+    },
+    {
+        id: 3,
+        img: image3,
+    },
+    {
+        id: 4,
+        img: image4,
+    },
+    {
+        id: 5,
+        img: image5,
+    },
+    {
+        id: 6,
+        img: image6,
+    },
 ];
 
 
@@ -110,6 +134,27 @@ import protfoliImg1 from '../../src/assets/p1.jpg'
 import protfoliImg2 from '../../src/assets/p2.jpg'
 import protfoliImg3 from '../../src/assets/p3.jpg'
 export const portfolio = [
+    {
+        id: 1,
+        img: protfoliImg1,
+        name: 'Project-1',
+        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
+        github:'#',
+    },
+    {
+        id: 1,
+        img: protfoliImg2,
+        name: 'Project-2',
+        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
+        github:'#',
+    },
+    {
+        id: 1,
+        img: protfoliImg3,
+        name: 'Project-3',
+        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
+        github:'#',
+    },
     {
         id: 1,
         img: protfoliImg1,
