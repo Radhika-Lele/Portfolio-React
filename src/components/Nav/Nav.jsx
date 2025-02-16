@@ -12,6 +12,10 @@ const Nav = () => {
         setShowmenu(!showmenu);
     }
 
+    const closeMenu = () => {
+        setShowmenu(false);
+    };
+
     return(
         <nav>
             <ul className={`${ showmenu ? 'navlinks navlinks-show' : 'navlinks'}`}>
@@ -19,7 +23,12 @@ const Nav = () => {
                     navLinks.map(({id, name, path, icon}) => {
                         return(
                             <li className='nav-item' key={id}>
-                                <NavLink to={path} className={({isActive}) => isActive ? 'nav-link navlinksActive' : 'nav-link'}>
+                                <NavLink 
+                                onClick={closeMenu} 
+                                to={path} 
+                                className={({isActive}) => isActive ? 'nav-link navlinksActive' : 'nav-link' }
+                                
+                                >
                                     <span><FontAwesomeIcon icon={icon} /></span>
                                     <h3>
                                         {name}
@@ -30,7 +39,7 @@ const Nav = () => {
                     })
                 }
             </ul>
-            <div  className={`${showmenu ? "nav-toggle nav-close" : "nav-toggle"}`} onClick={MenuHandler}>
+            <div className={`${showmenu ? "nav-toggle nav-close" : "nav-toggle"}`} onClick={MenuHandler}>
                 <span></span>
                 <span></span>
                 <span></span>

@@ -18,11 +18,17 @@
     margin-top: 0 !important;
 }
 
+button{
+    cursor: pointer;
+}
+
 footer{
     background: var(--color-light);
     padding: 2rem;
     text-align: center;
     color:var(--color-dark);
+    font-weight: 800;
+    font-size: 18px;
 }
 .page-container {
     display: flex;
@@ -39,6 +45,7 @@ footer a {
     margin-right: 15px; /* Adjust the spacing as needed */
     text-decoration: none;
     color: var(--color-dark);
+    margin-top: 3px;
 }
 
 @media (max-width:1024px){
