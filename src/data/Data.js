@@ -83,27 +83,7 @@ export const tools = [
 ];
 
 
-import {faCodeBranch, faCode,faCodeCompare,} from '@fortawesome/free-solid-svg-icons'
-export const services = [
-    {
-        id: 1,
-        icon: faCode,
-        name:'Web Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
-    },
-    {
-        id: 2,
-        icon: faCodeBranch,
-        name:'Apps Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
-    },
-    {
-        id: 3,
-        icon: faCodeCompare,
-        name:'Python Customize',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
-    },
-];
+
 
 
 
@@ -158,33 +138,3 @@ export const portfolio = [
 
 
 
-import avatar1 from '../../src/assets/avatar1.png'
-import avatar2 from '../../src/assets/avatar2.png'
-import avatar3 from '../../src/assets/avatar3.png'
-import avatar4 from '../../src/assets/avatar4.png'
-export const testimonials = [
-    {
-        id: 1,
-        img: avatar1,
-        name: 'Dong Lee',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',        
-    },
-    {
-        id: 2,
-        img: avatar2,
-        name: 'Mohammed Habib',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',        
-    },
-    {
-        id: 3,
-        img: avatar3,
-        name: 'Jhon Alas',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',        
-    },
-    {
-        id: 4,
-        img: avatar4,
-        name: 'Irfan Nazir',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.',        
-    },
-];
