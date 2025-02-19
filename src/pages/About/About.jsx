@@ -7,6 +7,7 @@ import CV from '../../assets/CV.pdf';
 import Card from '../../UI/Card';
 import { experience } from '../../data/Data';
 import Tools from '../../components/Tools/Tools';
+import AboutCard from '../../UI/AboutCard';
 
 const About = () => {
     return(
@@ -19,9 +20,9 @@ const About = () => {
             <div className='container about-container'>
                 <div className='about-left'>
                     <h3>I'm Radhika</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, quaerat perspiciatis? Consequuntur temporibus corporis totam quos, debitis repudiandae unde? Aliquid dolores quasi tempora neque sed voluptate suscipit, a sapiente voluptatibus?</p>
+                    <p>As a Frontend Developer, I am passionate about building web applications using React, JavaScript, and RESTful APIs. Over the past year, I have collaborated in agile teams to develop high-performance web applications, transforming Figma designs into fully responsive and interactive user interfaces. My problem-solving skills allow me to debug efficiently, improve performance, and streamline development workflows.</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sunt quia at fugit atque tempora? Cupiditate modi, dolore optio itaque quod quisquam laborum! Delectus molestiae dolorum fugit ipsam facere? Eveniet!
+                    Additionally, I specialize in building and testing email templates across different platforms, ensuring seamless rendering and compatibility. I create responsive, visually engaging, and accessible email designs that enhance user engagement and brand consistency. My experience includes testing emails across various clients like Gmail, Outlook, and Apple Mail to identify and resolve rendering issues, ensuring optimal performance across all devices.
                     </p>
                     <a href={CV} download className='btn'> Resume
                         <span><FontAwesomeIcon icon={faDownload} /> </span>
@@ -33,11 +34,7 @@ const About = () => {
                     {
                         experience.map(({id, no, title}) => {
                             return(
-                                <Card key={id} className={'experience-card'}>
-                                  <h1><span>{no}</span></h1>
-                                  <p>{title}</p>
-                                    
-                                </Card>
+                                <AboutCard key={id} no={no} title={title} />
                             )
                         })
                     }
@@ -50,3 +47,4 @@ const About = () => {
 }
 
 export default About;
+

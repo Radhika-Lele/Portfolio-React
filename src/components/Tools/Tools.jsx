@@ -6,17 +6,19 @@ const Tools = () => {
     return(
         <section className='tools'>
         <HeadingText
-         title={'Work'}
-         titlePrimary={' Tools'}
+         title={'My'}
+         titlePrimary={' Toolkit'}
         />
-        <div className='container tools-container'>
-            {tools.map(({id, img}) => {
-                    return(
-                       <img src={img} key={id} /> 
-                    )
-            })}
-
-        </div>
+        <div className="container tools-container">
+                {tools.map(({ id, img, name }) => {
+                    return (
+                        <div key={id} className="tool-item">
+                            <img src={img} alt={name} />
+                            {name && <p>{name}</p>}  
+                        </div>
+                    );
+                })}
+            </div>
         </section>
     )
 }

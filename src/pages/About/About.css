@@ -8,6 +8,8 @@
 }
 .about-left p{
     margin-top: 1rem;
+    text-align: justify;
+    font-size: 18px;
 }
 .about-right{
     display: grid;

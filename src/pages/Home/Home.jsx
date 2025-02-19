@@ -16,8 +16,7 @@ const Home = () => {
                 Web Developer
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consectetur adipisci rem vero nemo nihil doloribus sapiente amet atque corrupti quibusdam, sequi accusamus quisquam esse incidunt! Veritatis similique debitis eaque?
-                   
+                I am a Frontend Developer and Email Specialist based in Toronto, Canada, with over a year of experience in software development.
                 </p>
                 <Link className='btn' to={'/about'}>
                 About Me

@@ -31,76 +31,54 @@ export const navLinks = [
 export const experience = [
     {
         id: 1,
-        no: '2+',
+        no: '1+',
         title:'Years Experience'
     },
     {
         id: 2,
-        no: '10+',
+        no: '5+',
         title:'Complete Projects'
-    },
-    {
-        id: 3,
-        no: '3+',
-        title:'Happy Clintes'
     },
 ];
 
 
-import image1 from '../../src/assets/python.png'
+import image1 from '../../src/assets/html.png'
 import image2 from '../../src/assets/react.png'
-import image3 from '../../src/assets/node.png'
-import image4 from '../../src/assets/figma.png'
-import image5 from '../../src/assets/ps.png'
-import image6 from '../../src/assets/sketch.png'
+import image3 from '../../src/assets/javascript.png'
+import image4 from '../../src/assets/css.png'
+import image5 from '../../src/assets/github.png'
+import image6 from '../../src/assets/sass.png'
+
 export const tools = [
     {
         id: 1,
         img: image1,
+        name: "HTML5",
     },
     {
         id: 2,
         img: image2,
+        name: "React",
     },
     {
         id: 3,
         img: image3,
+        name: "JavaScript",
     },
     {
         id: 4,
         img: image4,
+        name: "CSS3",
     },
     {
         id: 5,
         img: image5,
+        name: "GitHub",
     },
     {
         id: 6,
         img: image6,
-    },
-    {
-        id: 1,
-        img: image1,
-    },
-    {
-        id: 2,
-        img: image2,
-    },
-    {
-        id: 3,
-        img: image3,
-    },
-    {
-        id: 4,
-        img: image4,
-    },
-    {
-        id: 5,
-        img: image5,
-    },
-    {
-        id: 6,
-        img: image6,
+        name: "Sass",
     },
 ];
 
@@ -130,7 +108,7 @@ export const services = [
 
 
 
-import protfoliImg1 from '../../src/assets/p1.jpg'
+import protfoliImg1 from '../../src/assets/laptop1.jpg'
 import protfoliImg2 from '../../src/assets/p2.jpg'
 import protfoliImg3 from '../../src/assets/p3.jpg'
 export const portfolio = [
