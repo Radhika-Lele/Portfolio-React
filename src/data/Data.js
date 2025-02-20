@@ -88,51 +88,73 @@ export const tools = [
 
 
 
-import protfoliImg1 from '../../src/assets/laptop1.jpg'
+import protfoliImg1 from '../../src/assets/p1.jpg'
 import protfoliImg2 from '../../src/assets/p2.jpg'
 import protfoliImg3 from '../../src/assets/p3.jpg'
 export const portfolio = [
     {
         id: 1,
         img: protfoliImg1,
-        name: 'Project-1',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        name: 'Weekly Bytes',
+        des: 'A smart meal-planning app that effortlessly generates diverse, allergy-safe weekly menus for teams, ensuring variety, dietary compliance, and a hassle-free dining',
+        github:'https://github.com/chingu-voyages/V53-tier2-team-26/tree/main',
+        live:'https://weekly-bytes.com'
     },
     {
         id: 1,
         img: protfoliImg2,
-        name: 'Project-2',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        name: 'TechQuest Trivia',
+        des: 'An interactive quiz platform where players can test their knowledge across various categories and difficulty levels, track scores, and enjoy a fun, tech-driven trivia experience',
+        github:'https://github.com/RoboTriviaProject/RoboTrivia',
+        live:'https://robo-trivia-app.netlify.app',
     },
     {
         id: 1,
         img: protfoliImg3,
-        name: 'Project-3',
+        name: 'Novas Boutique Shop',
         des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        github:'https://github.com/Radhika-Lele/DhaliwalHuangLeleProjectTwo/tree/displayCartNew',
+        live:'https://novas-boutique-shop.netlify.app',
     },
     {
         id: 1,
         img: protfoliImg1,
-        name: 'Project-1',
+        name: 'Recipe Finder App',
         des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        github:'https://github.com/Radhika-Lele/RadhikaLeleProject3',
+        live:'https://recipe-find-app.netlify.app',
     },
     {
         id: 1,
         img: protfoliImg2,
-        name: 'Project-2',
+        name: 'Email Template 1',
         des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        github:'https://github.com/Radhika-Lele/EmailDevTemplate',
+        live:'https://emaildevtemplate.netlify.app',
     },
     {
         id: 1,
         img: protfoliImg3,
-        name: 'Project-3',
+        name: 'Email Template 2',
         des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        github:'https://github.com/Radhika-Lele/Email-Template-kasha-decor',
+        live:'https://elegant-phoenix-84fc0c.netlify.app'
+    },
+    {
+        id: 1,
+        img: protfoliImg3,
+        name: 'Email Template 3',
+        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
+        github:'https://github.com/Radhika-Lele/Email-development',
+        live:'https://emaildevelopment.netlify.app'
+    },
+    {
+        id: 1,
+        img: protfoliImg3,
+        name: 'Email Template 4',
+        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
+        github:'https://github.com/Radhika-Lele/Reset-Password',
+        live:'https://resepassword.netlify.app'
     },
 ];
 
