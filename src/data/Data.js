@@ -138,7 +138,7 @@ export const portfolio = [
         name: 'Email Template 2',
         des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
         github:'https://github.com/Radhika-Lele/Email-Template-kasha-decor',
-        live:'https://elegant-phoenix-84fc0c.netlify.app'
+        live:'https://kashadecor.netlify.app'
     },
     {
         id: 1,
